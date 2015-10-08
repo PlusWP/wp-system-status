@@ -1,0 +1,26 @@
+{
+  "name": "pluswp/wp-system-status",
+  "description": "Report the current system status.",
+  "type": "wordpress-drop-in",
+  "keywords": [
+    "system",
+    "status",
+    "tool"
+  ],
+  "homepage": "https://github.com/PlusWP/wp-system-status",
+  "license": "GPL-2.0+",
+  "authors": [{
+    "name": "PlusWP",
+    "homepage": "http://pluswp.com/"
+  }],
+  "support": {
+    "issues": "https://github.com/PlusWP/wp-system-status/issues",
+    "wiki": "https://github.com/PlusWP/wp-system-status/wiki",
+    "source": "https://github.com/PlusWP/wp-system-status"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.2.4",
+    "cbschuld/browser.php": "dev-master"
+  }
+}
