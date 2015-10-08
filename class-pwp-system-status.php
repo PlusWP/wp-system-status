@@ -159,6 +159,7 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 			// browser
 			if ( ! class_exists( 'Browser' ) ) {
 				require_once __DIR__ . '/Browser.php';
+				// require_once __DIR__ . '/vendor/cbschuld/browser.php/lib/Browser.php'; // @@todo \\
 			}
 			$browser = new Browser();
 			$data['browser']['agent'] = $browser->getUserAgent();
