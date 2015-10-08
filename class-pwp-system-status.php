@@ -232,12 +232,12 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 		private static function array_to_html_table( $data, $ouput = '' ) {
 			foreach ( $data as $key => $value ) {
 				if ( is_array( $value ) ) {
-					$ouput .= "<tr><th colspan='2' bgcolor='#e6e6e6'>$key</th><tr>";
+					$ouput .= "<tr><th colspan='2' bgcolor='#e6e6e6'>$key</th></tr>";
 					$ouput .= self::array_to_html_table( $value );
 				} else {
 					$key = (string) $key;
 					$value = (string) $value;
-					$ouput .= "<tr><th align='right'>$key</th><td align='left' style='padding-left:10px'>$value</td><tr>";
+					$ouput .= "<tr><th align='right'>$key</th><td align='left' style='padding-left:10px'>$value</td></tr>";
 				}
 			}
 			return $ouput;
