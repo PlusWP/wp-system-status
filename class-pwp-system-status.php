@@ -5,7 +5,7 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 	 * System status
 	 *
 	 * @package    PWP_System_Status
-	 * @author     PlusWP <dev@pluswp.com> (http://pluswp.com)
+	 * @author     PlusWP <dev@pluswp.com> (httpS://pluswp.com)
 	 * @copyright  2015 PlusWP (kunderi kuus)
 	 * @license    GPL-2.0+
 	 * @version    Release: 1.0.0
