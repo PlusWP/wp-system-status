@@ -1,5 +1,5 @@
 {
-  "name": "pluswp/wp-system-status",
+  "name": "knitkode/wp-system-status",
   "description": "Report the current system status.",
   "type": "wordpress-drop-in",
   "keywords": [
@@ -7,16 +7,16 @@
     "status",
     "tool"
   ],
-  "homepage": "https://github.com/PlusWP/wp-system-status",
+  "homepage": "https://github.com/knitkode/wp-system-status",
   "license": "GPL-2.0+",
   "authors": [{
-    "name": "PlusWP",
-    "homepage": "https://pluswp.com/"
+    "name": "Knitkode",
+    "homepage": "https://knitkode.com/"
   }],
   "support": {
-    "issues": "https://github.com/PlusWP/wp-system-status/issues",
-    "wiki": "https://github.com/PlusWP/wp-system-status/wiki",
-    "source": "https://github.com/PlusWP/wp-system-status"
+    "issues": "https://github.com/knitkode/wp-system-status/issues",
+    "wiki": "https://github.com/knitkode/wp-system-status/wiki",
+    "source": "https://github.com/knitkode/wp-system-status"
   },
   "minimum-stability": "dev",
   "require": {

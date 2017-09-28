@@ -5,11 +5,11 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 	 * System status
 	 *
 	 * @package    PWP_System_Status
-	 * @author     PlusWP <dev@pluswp.com> (https://pluswp.com)
-	 * @copyright  2017 PlusWP
+	 * @author     Knitkode <dev@knitkode.com> (https://knitkode.com)
+	 * @copyright  2017 Knitkode
 	 * @license    GPL-2.0+
 	 * @version    Release: 1.0.0
-	 * @link       https://github.com/PlusWP/wp-system-status
+	 * @link       https://github.com/knitkode/wp-system-status
 	 */
 	class PWP_System_Status {
 
