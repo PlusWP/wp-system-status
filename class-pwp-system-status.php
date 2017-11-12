@@ -1,17 +1,17 @@
 <?php defined( 'ABSPATH' ) or die;
 
-if ( ! class_exists( 'PWP_System_Status' ) ):
+if ( ! class_exists( 'KK_System_Status' ) ):
 	/**
 	 * System status
 	 *
-	 * @package    PWP_System_Status
-	 * @author     Knitkode <dev@knitkode.com> (https://knitkode.com)
-	 * @copyright  2017 Knitkode
+	 * @package    KK_System_Status
+	 * @author     KnitKode <dev@knitkode.com> (https://knitkode.com)
+	 * @copyright  2017 KnitKode
 	 * @license    GPL-2.0+
 	 * @version    Release: 1.0.0
 	 * @link       https://github.com/knitkode/wp-system-status
 	 */
-	class PWP_System_Status {
+	class KK_System_Status {
 
 		/**
 		 * Let to number
@@ -147,8 +147,8 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 			}
 
 			// custom
-			$custom_key = apply_filters( 'PWP_System_Status\custom_key', 'custom' );
-			$custom_array = apply_filters( 'PWP_System_Status\custom_array', array() );
+			$custom_key = apply_filters( 'KK_System_Status\custom_key', 'custom' );
+			$custom_array = apply_filters( 'KK_System_Status\custom_array', array() );
 			$data[ $custom_key ] = $custom_array;
 			// $data['redux_ver']      = esc_html( ReduxFramework::$_version );
 			// $data['redux_data_dir'] = ReduxFramework::$_upload_dir;
@@ -263,9 +263,9 @@ if ( ! class_exists( 'PWP_System_Status' ) ):
 		}
 	}
 
-	add_action( 'wp_ajax_PWP_System_Status\get', 'PWP_System_Status::remote_get' );
+	add_action( 'wp_ajax_KK_System_Status\get', 'KK_System_Status::remote_get' );
 
 	// Instantiate
-	// new PWP_System_Status;
+	// new KK_System_Status;
 
 endif;
