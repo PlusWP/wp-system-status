@@ -7,7 +7,7 @@ if ( ! class_exists( 'KK_System_Status' ) ):
 	 * @package    KK_System_Status
 	 * @author     KnitKode <dev@knitkode.com> (https://knitkode.com)
 	 * @copyright  2017 KnitKode
-	 * @license    GPL-2.0+
+	 * @license    GPLv3
 	 * @version    Release: 1.0.0
 	 * @link       https://github.com/knitkode/wp-system-status
 	 */
