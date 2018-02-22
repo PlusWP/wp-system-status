@@ -1,6 +1,7 @@
 {
   "name": "knitkode/wp-system-status",
   "description": "Report the current system status.",
+  "version": "1.2.0",
   "type": "wordpress-drop-in",
   "keywords": [
     "system",

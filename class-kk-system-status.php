@@ -44,7 +44,7 @@ if ( ! class_exists( 'KK_System_Status' ) ):
 		 * Credits to @link(https://github.com/reduxframework/redux-framework/blob/master/ReduxCore/inc/class.redux_helpers.php#L68, Redux)
 		 *
 		 * @since  1.0.0
-		 * @return boolean
+		 * @return bool
 		 */
 		private static function is_local_host() {
 			return ( $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === 'localhost' ) ? 1 : 0;
@@ -55,7 +55,7 @@ if ( ! class_exists( 'KK_System_Status' ) ):
 		 * Credits to @link(https://github.com/reduxframework/redux-framework/blob/master/ReduxCore/inc/class.redux_helpers.php#L359, Redux)
 		 *
 		 * @since  1.0.0
-		 * @param  mixed $var A to be boolean value
+		 * @param  mixed $var A to be bool value
 		 * @return string Either 'true' or 'false'
 		 */
 		private static function bool_to_string( $var ) {
@@ -71,9 +71,9 @@ if ( ! class_exists( 'KK_System_Status' ) ):
 		 * Credits to @link(https://github.com/reduxframework/redux-framework/blob/master/ReduxCore/inc/class.redux_helpers.php#L367)
 		 *
 		 * @since  1.0.0
-		 * @global  $wpdb | WordPress database object
-		 * @param  boolean $output_as_json
-		 * @param  boolean $remote_checks
+		 * @global $wpdb | WordPress database object
+		 * @param  bool $output_as_json
+		 * @param  bool $remote_checks
 		 * @return array
 		 */
 		public static function get_status( $output_as_json = false, $remote_checks = true ) {
