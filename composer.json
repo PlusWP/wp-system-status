@@ -9,7 +9,7 @@
     "tool"
   ],
   "homepage": "https://github.com/knitkode/wp-system-status",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "authors": [{
     "name": "KnitKode",
     "homepage": "https://knitkode.com/"
